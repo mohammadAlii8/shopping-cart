@@ -1,8 +1,7 @@
 import React from 'react';
 import homePic from "../assets/banner.webp";
 
-
-const Section = () => {
+const Hero = () => {
     return (
         <section className="text-gray-600 body-font mt20">
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -24,4 +23,4 @@ const Section = () => {
     );
 };
 
-export default Section;
+export default Hero;

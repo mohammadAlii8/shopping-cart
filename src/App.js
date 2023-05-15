@@ -1,19 +1,18 @@
+import React from 'react';
 import './App.css';
-import AboutUs from './Components/AboutUs';
-import Features from './Components/Features';
+
+import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
-import Products from './Components/Products';
-import Section from './Components/Section';
+
+import Home from './Components/Home';
 
 function App() {
+
   return (
     <div>
       <Navbar />
-      <Section />
-      <h2 className='text-4xl font-bold text-center mt-20 text-black'>Products</h2>
-      <Products />
-      <AboutUs />
-      <Features />
+      <Home />
+      <Footer /> */
     </div>
   );
 }
