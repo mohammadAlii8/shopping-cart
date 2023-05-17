@@ -15,7 +15,7 @@ const ProductsDetails = () => {
   if (!Object.keys(product).length > 0)
     return (
       <h1 className="text-center text-3xl font-bold mt-40">
-        Product Not Found
+        Loading ....
       </h1>
     );
 

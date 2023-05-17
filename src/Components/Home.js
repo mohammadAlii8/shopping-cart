@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './Hero';
-import Products from './Products';
+import Product from './Product';
 import Features from './Features';
 import AboutUs from './AboutUs';
 
@@ -22,7 +22,7 @@ const Home = () => {
         Products
       </h2>
       {products.length > 0 ? (
-        <Products items={products} />
+        <Product items={products} />
       ) : (
         <h1>Loading...</h1>
       )}
